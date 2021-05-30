@@ -1,0 +1,178 @@
+.dFlex {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.sortBy {
+  font-size: 14px;
+  color: #282c3f;
+  cursor: pointer;
+  position: relative;
+  width: 255px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 1px solid #d4d5d9;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.sortBy:hover + .hideDrop {
+  display: block;
+}
+
+.sortBy p {
+  padding-left: 0.75rem;
+}
+
+.sortBy span span > p:hover {
+  background: #eaeaec;
+}
+
+.sortBy img {
+  margin-bottom: -0.25rem;
+}
+
+.hideDrop {
+  display: none;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #eaeaec;
+}
+
+.filterHeaders {
+  border-bottom: 1px solid #eaeaec;
+  border-radius: 1px solid #eaeaec;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  clear: both;
+  color: #282c3f;
+  display: block;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  margin-top: 1rem;
+}
+
+.galleryGrid {
+  display: grid;
+  padding: 1.5rem;
+  border-left: 1px solid #eaeaec;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+
+.card {
+  width: 210px;
+  text-align: left;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 10px 30px;
+  cursor: pointer;
+}
+
+.sortByExpanded {
+  position: absolute;
+}
+
+.productImage {
+  height: 280px;
+}
+
+.card:hover {
+  box-shadow: 0 2px 16px 4px rgb(40 44 63 / 7%);
+}
+
+.cardBody {
+  padding: 0.5rem;
+}
+
+.dropdown {
+  position: absolute;
+  right: 12rem;
+  top: 7.5rem;
+  z-index: 10;
+}
+
+.dropdownOption {
+  border-top: 1px solid #d4d5d9;
+  padding: 0.75rem 0;
+  margin: 0;
+}
+
+.carat {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.hoverCard {
+  display: flex;
+  align-items: center;
+  width: 210px;
+  justify-content: space-around;
+  position: absolute;
+
+  position: absolute;
+  background: #fff;
+  padding: 1.25rem 0 1rem 0;
+  color: #282c3f;
+  letter-spacing: 0.3px;
+  margin-top: -3.75rem;
+}
+
+.hoverCard > div {
+  border-radius: 2px;
+  border: 1px solid #d4d5d9;
+  padding: 0.5rem 3rem;
+  cursor: pointer;
+  color: #282c3f;
+  letter-spacing: 0.3px;
+}
+
+.hoverCard > div:hover {
+  border: 1px solid #535766;
+}
+
+.hoverCard img {
+  width: 1rem;
+}
+
+.hoverCard > button {
+  position: absolute;
+  padding: 0.5rem;
+  background: white;
+  border-radius: 100px;
+  border: 1px solid #eee;
+  right: 1rem;
+  z-index: 3;
+  margin-top: -8rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.hoverCard > button > span {
+  text-transform: uppercase;
+  color: #ff3f6c;
+}
+
+.control-dots {
+  top: 1rem !important;
+}
+
+.checkboxLabel {
+  margin-left: 0.5rem;
+}

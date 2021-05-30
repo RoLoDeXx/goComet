@@ -1,0 +1,93 @@
+header {
+  height: 80px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profileActions form {
+  margin: auto 3rem;
+}
+
+.removeItem {
+  border: 1px solid;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  font-size: 13px;
+  height: 20px;
+  line-height: 24px;
+  width: 95%;
+  color: #696e79;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 8px 10px 10px;
+  margin: 0;
+  outline: 0;
+  border: 1px solid #f5f5f6;
+  border-radius: 5px;
+  border-left: 0;
+  background: #f5f5f6;
+  width: 650px;
+}
+
+input[type="text"]:focus {
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+.headerDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 4rem;
+  width: 2.75rem;
+}
+
+.profileActions {
+  display: flex;
+  align-items: center;
+}
+
+.profileActions > div {
+  margin: 0.75rem;
+  cursor: pointer;
+}
+
+.profileActions > div > img {
+  display: block;
+  margin: auto;
+}
+
+.profileActions > div > p {
+  margin: 0;
+  text-align: center;
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 10px;
+  line-height: 6px;
+}
+
+.navLinks a {
+  padding: 0 17px 28px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #282c3f;
+  border-bottom: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
