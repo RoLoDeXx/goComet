@@ -203,3 +203,39 @@ h2 + span {
   padding-bottom: 3rem;
   border-bottom: 1px solid #dadada;
 }
+
+.altView {
+  display: none;
+  margin: auto;
+}
+
+.altView img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .altView {
+    display: block;
+  }
+  .sizes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+  }
+
+  .productGrid {
+    grid-template-columns: 1fr;
+  }
+  .cartOptions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .imageGrid {
+    display: none;
+  }
+  .addToBag {
+    margin: 0;
+  }
+}

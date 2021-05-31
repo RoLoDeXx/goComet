@@ -74,6 +74,18 @@ const Details = () => {
               );
             })}
           </div>
+
+          <div className={Styles.altView}>
+            <img
+              className={Styles.productImage}
+              src={product[0].images[0].url}
+              alt={product[0].description}
+              key={product[0].description}
+              onClick={() =>
+                (document.getElementById("myModal").style.display = "block")
+              }
+            />
+          </div>
           <div>
             <h1 className={Styles.productName}>
               {product[0].description.slice(0, 5)}

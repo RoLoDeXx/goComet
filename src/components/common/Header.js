@@ -4,8 +4,10 @@ import { ProductsContext } from "../../contexts/ProductContext";
 import Styles from "./style.module.css";
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
+import { useHistory } from "react-router-dom";
 
 const Header = () => {
+  let history = useHistory();
   const [open, setOpen] = useState(false);
   const [cartItems, setCartItems] = useState([]);
   const onOpenModal = () => {
@@ -62,6 +64,7 @@ const Header = () => {
       <div className={Styles.headerDiv}>
         <img
           className={Styles.logo}
+          onClick={() => history.push("/")}
           src={`https://assets.myntassets.com/assets/images/retaillabs/2021/1/27/819f16d8-f335-4ed2-a681-e7feb7f6e3d91611739436334-2fda2506-f500-42a0-959f-edecbc74a9f81544508066218-myntra_logo.png`}
           alt="logo"
         />
@@ -88,14 +91,14 @@ const Header = () => {
             placeholder="Search for products, brands and more"
           />
         </form>
-        <div>
+        <div className={Styles.shortcut}>
           <img
             src="https://img.icons8.com/ios/16/000000/user--v1.png"
             alt="user"
           />
           <p>Profile</p>
         </div>
-        <div>
+        <div className={Styles.shortcut}>
           <img
             src="https://img.icons8.com/small/16/000000/like.png"
             alt="heart"

@@ -18,7 +18,7 @@ const Listings = () => {
 
           <div className={Styles.borderBottom}>
             <p>
-              <b className="mb-2">FILTERS</b>
+              <b className={`${Styles.filterHeading} mb-2`}>FILTERS</b>
             </p>
             <div className={Styles.dropdown}>
               <form

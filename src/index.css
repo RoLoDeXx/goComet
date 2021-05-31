@@ -35,6 +35,8 @@ code {
   .container-sm,
   .container-xl {
     max-width: 1140px;
+    padding-right: 8rem;
+    padding-left: 8rem;
   }
 }
 
@@ -43,7 +45,13 @@ code {
   .container-lg,
   .container-md,
   .container-sm {
-    max-width: 960px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .container-fluid {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
   }
 }
 
@@ -51,14 +59,24 @@ code {
   .container,
   .container-md,
   .container-sm {
-    max-width: 720px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .container-fluid {
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 }
 
 @media (max-width: 576px) {
   .container,
   .container-sm {
-    max-width: 540px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .container-fluid {
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 }
 

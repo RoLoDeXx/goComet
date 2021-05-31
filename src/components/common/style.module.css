@@ -53,6 +53,7 @@ input[type="text"]:focus {
 .logo {
   margin-right: 4rem;
   width: 2.75rem;
+  cursor: pointer;
 }
 
 .profileActions {
@@ -90,4 +91,42 @@ input[type="text"]:focus {
   border-bottom: none;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.shortcut {
+  display: block;
+}
+
+@media only screen and (max-width: 992px) {
+  .navLinks {
+    display: none;
+  }
+
+  input[type="text"] {
+    width: 100%;
+  }
+  .logo {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .profileActions {
+    width: 100%;
+  }
+
+  .profileActions form {
+    margin: auto 1.5rem;
+    width: 100%;
+  }
+
+  .shortcut {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .profileActions form {
+    margin: auto 1rem;
+  }
 }

@@ -10,7 +10,14 @@ const Gallery = () => {
     return <Card product={product} key={product.name} />;
   });
 
-  return <div className={Styles.galleryGrid}>{renderItems}</div>;
+  return (
+    <div className={Styles.galleryGrid}>
+      <p className={Styles.productHeader}>
+        <b>PRODUCTS</b>
+      </p>
+      {renderItems}
+    </div>
+  );
 };
 
 export default Gallery;

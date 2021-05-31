@@ -176,3 +176,76 @@
 .checkboxLabel {
   margin-left: 0.5rem;
 }
+
+.filterHeading {
+  display: block;
+}
+
+.productHeader {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .dropdown {
+    right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .galleryGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .card {
+    margin: 0 0 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .galleryGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    border-left: none;
+  }
+  .card {
+    margin: 0 0 15px;
+    display: block;
+    margin: auto;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  .mainGrid {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .card {
+    margin: 0 0 15px;
+    display: block;
+    margin: auto;
+  }
+
+  .galleryGrid {
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+
+  .mainGrid > div:nth-child(1) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .filterHeaders:nth-child(3) {
+    border: none;
+  }
+
+  .productHeader {
+    display: block;
+  }
+}
