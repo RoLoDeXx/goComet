@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/goComet/static/css/main.03bf828e.chunk.css",
+    "main.js": "/goComet/static/js/main.2c29d8de.chunk.js",
+    "main.js.map": "/goComet/static/js/main.2c29d8de.chunk.js.map",
+    "runtime-main.js": "/goComet/static/js/runtime-main.a2f47e07.js",
+    "runtime-main.js.map": "/goComet/static/js/runtime-main.a2f47e07.js.map",
+    "static/css/2.478798e7.chunk.css": "/goComet/static/css/2.478798e7.chunk.css",
+    "static/js/2.025d6b85.chunk.js": "/goComet/static/js/2.025d6b85.chunk.js",
+    "static/js/2.025d6b85.chunk.js.map": "/goComet/static/js/2.025d6b85.chunk.js.map",
+    "static/js/3.0d1ac691.chunk.js": "/goComet/static/js/3.0d1ac691.chunk.js",
+    "static/js/3.0d1ac691.chunk.js.map": "/goComet/static/js/3.0d1ac691.chunk.js.map",
+    "index.html": "/goComet/index.html",
+    "static/css/2.478798e7.chunk.css.map": "/goComet/static/css/2.478798e7.chunk.css.map",
+    "static/css/main.03bf828e.chunk.css.map": "/goComet/static/css/main.03bf828e.chunk.css.map",
+    "static/js/2.025d6b85.chunk.js.LICENSE.txt": "/goComet/static/js/2.025d6b85.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2f47e07.js",
+    "static/css/2.478798e7.chunk.css",
+    "static/js/2.025d6b85.chunk.js",
+    "static/css/main.03bf828e.chunk.css",
+    "static/js/main.2c29d8de.chunk.js"
+  ]
+}
